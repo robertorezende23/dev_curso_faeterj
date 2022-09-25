@@ -8,7 +8,7 @@ class Curso extends Model
 {
     protected $fillable = [
         'nome',
-        'image',
+        'imagem',
         'descricao',
         'requisitos',
         'video',

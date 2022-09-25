@@ -13,7 +13,7 @@
                 <ul class="module_list">
                   <!-- Aulas-->
                     @foreach($modulos->aulas_exibir as $aulas)
-                    <li><a href="#">{{ $aulas->nome }}</a></li>
+                    <li><a href="#">{{ $aulas->name }}</a></li>
                     @endforeach
                 </ul>
                 </div>

@@ -212,6 +212,8 @@ nav {
   background: #fafafa;
   border-right: 2px solid white;
   border-left: 2px solid white;
+  height: 120px;
+  overflow: hidden;
 }
 .card_info {
   padding: 15px;
@@ -227,4 +229,71 @@ nav {
   border-bottom-right-radius: 15px;
   border-bottom-left-radius: 15px;
 }
+.form_cursos{
+  position: top;
+  margin-top: 5%;
+  margin-left: 14%;
+  width: 1200px;
+}
+.form_users{
+  position: top;
+  margin-top: 5%;
+  margin-left: 14%;
+  width: 1200px;
+}
+.input_block{
+  display: inline-block;
+  padding-bottom: 1%;
+  padding-right: 4%;
+}
+.form_input{
+  padding: 5%;
+  width: 300px;
+  border: 1px solid #1c3166;
+  border-radius: 10px;
+}
+.button_cadastro{
+  margin-left: 0.1px;
+  width: 300px;
+  border: 1px solid #1c3166;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: white;
+  color: #1c3166;
+}
+.button_cadastro:hover {
+  background-color: #1c3166;
+  color: white;
+}
+.alert{
+  color:#3c763d;
+  background-color:#dff0d8;
+  border-color:#d6e9c6;
+  border-top-color: #c9e2b3;
+}
 
+.profile {
+  position: relative;
+  display: inline-block;
+  right: 5%;
+}
+
+.profile-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.profile-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.profile-content a:hover {background-color: #ddd;}
+
+.profile:hover .profile-content {display: block;}

@@ -23,6 +23,13 @@
 
       <div class="profile">
         <i class="fa-solid fa-circle-user" style="font-size: 24px"></i>
-        <span>Roberto Vieira Rezende</span>
+        <div class="profile-content">
+          <a href="/cadastro/user">CADASTRAR</a>
+          <a href="/cadastro/cursos">CADASTRAR CURSO</a>
+          <a href="/cadastro/modulos">CADASTRAR MODULOS</a>
+          <a href="/cadastro/aulas">CADASTRAR AULAS</a>
+          <a href="#">LOGAR</a>
+          <a href="#">SAIR</a>
+        </div>
       </div>
     </header>
